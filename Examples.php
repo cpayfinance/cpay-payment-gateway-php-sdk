@@ -3,10 +3,10 @@ require_once "PaymentOrder.php";
 require_once "Account.php";
 
 $conf = [
-    "merchantId" => 20046352,
+    "merchantId" => 200,
     "timeout" => 3,
     "host" => "https://api.cpay.ltd",
-    "securityKey" => "peyk6a5093yogr52ih7vudhw4mkgz4gd"];
+    "securityKey" => "xxxxx"];
 
 $c = new CpaySDK\PaymentOrder($conf);
 
